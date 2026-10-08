@@ -1,487 +1,315 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Anjali's Art Gallery | Traditional Indian Art</title>
+    <title>Anjali's Art Gallery</title>
 
     <link rel="stylesheet" href="style.css">
-
 </head>
-
 
 <body>
 
+    <!-- ==============================
+         NAVIGATION BAR
+    ============================== -->
 
-<!-- ==============================
-     NAVIGATION BAR
-============================== -->
+    <header>
+        <nav class="navbar">
 
-<header>
+            <div class="logo">
+                Anjali's Art Gallery
+            </div>
 
-    <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
 
-        <div class="logo">
-            Anjali's Art Gallery
+        </nav>
+    </header>
+
+
+    <!-- ==============================
+         HERO SECTION
+    ============================== -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <h1>
+                Colours, Culture & Creativity
+            </h1>
+
+            <p>
+                Welcome to my art gallery — a collection of traditional
+                Indian paintings created with love, colours and creativity.
+            </p>
+
+            <a href="#gallery" class="hero-button">
+                Explore My Artwork
+            </a>
+
         </div>
 
-
-        <ul class="nav-links">
-
-            <li>
-                <a href="#home">Home</a>
-            </li>
-
-            <li>
-                <a href="#gallery">Gallery</a>
-            </li>
-
-            <li>
-                <a href="#about">About Me</a>
-            </li>
-
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-
-        </ul>
-
-    </nav>
-
-</header>
+    </section>
 
 
+    <!-- ==============================
+         GALLERY SECTION
+    ============================== -->
 
-<!-- ==============================
-     HOME SECTION
-============================== -->
+    <section id="gallery" class="gallery-section">
 
-<section id="home" class="hero">
+        <h2>My Artwork</h2>
 
-    <div class="hero-content">
-
-        <p class="small-title">
-            WELCOME TO MY ART WORLD
+        <p class="section-intro">
+            Explore my collection of traditional Indian paintings.
         </p>
 
 
-        <h1>
-            Colours, Culture & Creativity
-        </h1>
+        <div class="gallery">
 
 
-        <p>
-            Explore my collection of traditional Indian artwork,
-            inspired by Madhubani art, Indian mythology,
-            spirituality and the beauty of colours.
-        </p>
+            <!-- ==============================
+                 MADHUBANI PAINTING 1
+            ============================== -->
 
+            <div class="painting-card">
 
-        <a href="#gallery" class="button">
-            Explore My Paintings
-        </a>
+                <img
+                    src="madhubani1.jpg"
+                    alt="Madhubani Painting"
+                >
 
-    </div>
+                <div class="painting-info">
 
-</section>
+                    <h3>Madhubani Painting</h3>
 
+                    <p>
+                        Traditional Madhubani artwork inspired by
+                        Indian culture and nature.
+                    </p>
 
-
-<!-- ==============================
-     GALLERY SECTION
-============================== -->
-
-<section id="gallery" class="gallery-section">
-
-
-    <div class="section-heading">
-
-        <p class="small-title">
-            MY COLLECTION
-        </p>
-
-
-        <h2>
-            My Paintings
-        </h2>
-
-
-        <p>
-            A collection of paintings created with love,
-            imagination and inspiration from Indian culture.
-        </p>
-
-    </div>
-
-
-
-    <div class="gallery">
-
-
-        <!-- ==============================
-             MADHUBANI PAINTING 1
-        ============================== -->
-
-        <div class="painting-card">
-
-            <img
-                src="images/madhubani1.jpg"
-                alt="Madhubani Painting"
-            >
-
-
-            <div class="painting-info">
-
-                <h3>
-                    Madhubani Art
-                </h3>
-
-
-                <p>
-                    Traditional Madhubani painting inspired
-                    by Indian folk art, culture and nature.
-                </p>
-
-
-                <span>
-                    Madhubani Collection
-                </span>
+                </div>
 
             </div>
 
-        </div>
 
+            <!-- ==============================
+                 MADHUBANI PAINTING 2
+            ============================== -->
 
+            <div class="painting-card">
 
-        <!-- ==============================
-             MADHUBANI PAINTING 2
-        ============================== -->
+                <img
+                    src="madhubani2.jpg"
+                    alt="Madhubani Art"
+                >
 
-        <div class="painting-card">
+                <div class="painting-info">
 
-            <img
-                src="images/madhubani2.jpg"
-                alt="Madhubani Folk Painting"
-            >
+                    <h3>Madhubani Art</h3>
 
+                    <p>
+                        A colourful traditional Indian painting
+                        inspired by Madhubani folk art.
+                    </p>
 
-            <div class="painting-info">
-
-                <h3>
-                    Madhubani Folk Art
-                </h3>
-
-
-                <p>
-                    A colourful artwork inspired by
-                    traditional Mithila painting.
-                </p>
-
-
-                <span>
-                    Folk Art
-                </span>
+                </div>
 
             </div>
 
-        </div>
 
+            <!-- ==============================
+                 MAA DURGA
+            ============================== -->
 
+            <div class="painting-card">
 
-        <!-- ==============================
-             DURGA MAA
-        ============================== -->
+                <img
+                    src="durga.jpg"
+                    alt="Maa Durga Painting"
+                >
 
-        <div class="painting-card">
+                <div class="painting-info">
 
-            <img
-                src="images/durga.jpg"
-                alt="Maa Durga Painting"
-            >
+                    <h3>Maa Durga</h3>
 
+                    <p>
+                        A devotional painting celebrating the
+                        strength and beauty of Maa Durga.
+                    </p>
 
-            <div class="painting-info">
-
-                <h3>
-                    Maa Durga
-                </h3>
-
-
-                <p>
-                    A devotional painting dedicated to
-                    Maa Durga, symbolising strength,
-                    courage and divine power.
-                </p>
-
-
-                <span>
-                    Divine Art
-                </span>
+                </div>
 
             </div>
 
-        </div>
 
+            <!-- ==============================
+                 GANESH JI
+            ============================== -->
 
+            <div class="painting-card">
 
-        <!-- ==============================
-             GANESH JI
-        ============================== -->
+                <img
+                    src="ganesh.jpg"
+                    alt="Lord Ganesha Painting"
+                >
 
-        <div class="painting-card">
+                <div class="painting-info">
 
-            <img
-                src="images/ganesh.jpg"
-                alt="Lord Ganesha Painting"
-            >
+                    <h3>Lord Ganesha</h3>
 
+                    <p>
+                        A traditional representation of Lord Ganesha,
+                        symbolising wisdom, prosperity and good fortune.
+                    </p>
 
-            <div class="painting-info">
-
-                <h3>
-                    Lord Ganesha
-                </h3>
-
-
-                <p>
-                    An artistic representation of Lord Ganesha,
-                    symbolising wisdom, prosperity and good fortune.
-                </p>
-
-
-                <span>
-                    Spiritual Art
-                </span>
+                </div>
 
             </div>
 
-        </div>
 
+            <!-- ==============================
+                 KRISHNA JI
+            ============================== -->
 
+            <div class="painting-card">
 
-        <!-- ==============================
-             KRISHNA JI
-        ============================== -->
+                <img
+                    src="krishna.jpg"
+                    alt="Lord Krishna Painting"
+                >
 
-        <div class="painting-card">
+                <div class="painting-info">
 
-            <img
-                src="images/krishna.jpg"
-                alt="Lord Krishna Painting"
-            >
+                    <h3>Lord Krishna</h3>
 
+                    <p>
+                        A colourful devotional artwork inspired by
+                        the divine beauty of Lord Krishna.
+                    </p>
 
-            <div class="painting-info">
-
-                <h3>
-                    Lord Krishna
-                </h3>
-
-
-                <p>
-                    A colourful portrayal of Lord Krishna,
-                    inspired by Indian mythology and devotion.
-                </p>
-
-
-                <span>
-                    Divine Art
-                </span>
+                </div>
 
             </div>
 
-        </div>
 
+            <!-- ==============================
+                 HANUMAN JI
+            ============================== -->
 
+            <div class="painting-card">
 
-        <!-- ==============================
-             OTHER PAINTING
-        ============================== -->
+                <img
+                    src="hanuman.jpg"
+                    alt="Lord Hanuman Painting"
+                >
 
-        <div class="painting-card">
+                <div class="painting-info">
 
-            <img
-                src="images/painting6.jpg"
-                alt="Traditional Indian Painting"
-            >
+                    <h3>Lord Hanuman</h3>
 
+                    <p>
+                        A devotional artwork representing strength,
+                        courage, devotion and faith.
+                    </p>
 
-            <div class="painting-info">
-
-                <h3>
-                    Traditional Indian Art
-                </h3>
-
-
-                <p>
-                    An original artwork inspired by
-                    Indian traditions, colours and culture.
-                </p>
-
-
-                <span>
-                    Original Artwork
-                </span>
+                </div>
 
             </div>
 
+
         </div>
 
-
-    </div>
-
-</section>
+    </section>
 
 
+    <!-- ==============================
+         ABOUT THE ARTIST
+    ============================== -->
 
-<!-- ==============================
-     ABOUT ME SECTION
-============================== -->
+    <section id="about" class="about-section">
 
-<section id="about" class="about-section">
+        <div class="about-content">
 
+            <h2>About the Artist</h2>
 
-    <div class="about-content">
+            <p>
+                Hello! I am Anjali Tiwari, an artist who loves expressing
+                emotions, culture and creativity through colours.
+            </p>
 
-        <p class="small-title">
-            ABOUT THE ARTIST
-        </p>
+            <p>
+                My artwork is inspired by traditional Indian art forms,
+                devotional themes and the rich cultural heritage of India.
+            </p>
 
+            <p>
+                Through my paintings, I try to bring together traditional
+                artistic styles with my own creativity and imagination.
+            </p>
 
-        <h2>
-            Hello, I'm Anjali
-        </h2>
+        </div>
 
-
-        <p>
-            Welcome to my art world. I am an artist who loves
-            expressing creativity through colours, patterns
-            and traditional Indian art.
-        </p>
-
-
-        <p>
-            My artwork is inspired by Madhubani painting,
-            Indian culture, mythology and spiritual themes.
-            I especially enjoy creating paintings of
-            Maa Durga, Lord Ganesha, Lord Krishna and
-            other traditional subjects.
-        </p>
+    </section>
 
 
-        <p>
-            Every painting is created with patience,
-            imagination and love. Through my artwork,
-            I want to share the beauty of Indian art
-            and culture with everyone.
-        </p>
+    <!-- ==============================
+         CONTACT SECTION
+    ============================== -->
 
-    </div>
+    <section id="contact" class="contact-section">
 
-</section>
-
-
-
-<!-- ==============================
-     CONTACT SECTION
-============================== -->
-
-<section id="contact" class="contact-section">
-
-
-    <div class="section-heading">
-
-        <p class="small-title">
-            GET IN TOUCH
-        </p>
-
-
-        <h2>
-            Contact Me
-        </h2>
-
+        <h2>Let's Connect</h2>
 
         <p>
             Interested in my artwork or want to know more?
             Feel free to get in touch with me.
         </p>
 
-    </div>
+        <div class="contact-details">
+
+            <p>
+                <strong>Email:</strong>
+
+                <a href="mailto:anjalitiwari1730@gmail.com">
+                    anjalitiwari1730@gmail.com
+                </a>
+            </p>
+
+            <p>
+                <strong>Phone:</strong>
+
+                <a href="tel:+919026123347">
+                    +91 9026123347
+                </a>
+            </p>
+
+        </div>
+
+    </section>
 
 
+    <!-- ==============================
+         FOOTER
+    ============================== -->
 
-    <div class="contact-box">
-
-
-        <p>
-
-            📧 Email:
-
-            <a href="mailto:anjalitiwari1730@gmail.com">
-
-                anjalitiwari1730@gmail.com
-
-            </a>
-
-        </p>
-
-
-
-        <p>
-
-            📱 Phone:
-
-            <a href="tel:+919026123347">
-
-                +91 9026123347
-
-            </a>
-
-        </p>
-
-
+    <footer>
 
         <p>
-
-            📍 Location:
-
-            India
-
+            © 2026 Anjali's Art Gallery. All Rights Reserved.
         </p>
 
-
-    </div>
-
-</section>
-
-
-
-<!-- ==============================
-     FOOTER
-============================== -->
-
-<footer>
-
-    <p>
-        © 2026 Anjali's Art Gallery.
-        All Rights Reserved.
-    </p>
-
-
-    <p>
-        Made with ❤️ for the love of Indian Art.
-    </p>
-
-</footer>
-
+    </footer>
 
 
 </body>
 
 </html>
-```
